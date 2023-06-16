@@ -7,6 +7,7 @@
 .header .hdr-pic{
     width: 100%;
     height: 200px;
+    background-size: cover;
 }
 
 .header .hdr-logo {
@@ -17,3 +18,58 @@
     width: 70%;
     height: 4rem;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #E6E6E6;
+    width: 100%;
+    height:200rem ;
+    margin-top:-60px;
+}
+
+.main-box {
+    display: flex;
+    background-color: #ffffff;
+    width: 50%;
+    height: 20%;
+    box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.276) ;
+}
+
+.today-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28A711;
+    width: 7rem;
+    height: 7rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    margin:10px 15px 0 1px ;
+}
+
+.date-convert {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4CD035;
+    width:85%;
+    height: 7rem;
+    margin:10px 0 0 0 ;
+}
+
+.date-convert p:first-child {
+    color: #ffffff;
+    margin-top: 1rem;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    
+}
+
+.date-convert p {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+
