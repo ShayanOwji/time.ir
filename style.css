@@ -30,6 +30,7 @@ main {
 
 .main-box {
     display: flex;
+    flex-wrap: wrap;
     background-color: #ffffff;
     width: 65%;
     height: 20%;
@@ -38,6 +39,13 @@ main {
     border-top-right-radius: 10px;
 }
 
+.green {
+    width: 80%;
+}
+
+.clock {
+    
+}
 
 
 .today-date {
@@ -45,7 +53,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: #28A711;
-    width: 7rem;
+   
     height: 7rem;
     color: #ffffff;
     font-size: 1.3rem;
@@ -58,7 +66,7 @@ main {
     display: flex;
     justify-content: space-around;
     background-color: #4CD035;
-    width:89.5%;
+    
     height: 7rem;
     margin:15px 0 0 0 ;
     text-align: center;
