@@ -24,18 +24,16 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     background-color: #E6E6E6;
     margin-top: -50px;
 }
 
-.main-box {
-    color: black;
+.main-box-1 {
     width: 70%;
     height: 100%;
     background-color: #ffffff;
     border-radius: 20px;
-    
 } 
 
 .parent-green {
@@ -85,6 +83,8 @@ main {
 
 }
 
+                             /* clock section */
+
 .parent-clock {
     display: flex;
     justify-content: center;
@@ -100,6 +100,7 @@ main {
     height: 250px;
     border: 5px solid blue;
     border-radius: 50%;
+    margin-top: 30px;
     
 }
 
@@ -149,11 +150,14 @@ main {
     justify-content: center;
     align-items: flex-end;
     color: black;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     direction: ltr;
-    margin-top: 290px;
+    margin-top: 350px;
+    letter-spacing: 5px;
 }
+
+                    /* clock section end  */
 
 .parent-main-text {
     /* display: flex; */
@@ -175,10 +179,42 @@ main {
 }
 
 .child-main-text span {
-    font-size: 10rem;
+    font-size: 14rem;
     color: #4343436f;
     font-weight: bold;
 }
+
+
+                    /* main text end  */
+
+
+.parent-link-text {
+    display:flex;
+    float: left;
+    direction: ltr;
+    color: blue;
+}
+
+.child-link-text a {
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 40px;
+    
+}
+
+.child-link-icon img {
+    margin-top: 24px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+}
+
+
+                        /* link text end  */
 
 
 
