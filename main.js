@@ -47,7 +47,7 @@ function showTime() {
     seconds = (seconds < 10 ) ? `0${seconds}` : seconds;
 
     let time = `${hours}:${minutes}:${seconds} ${amPm}`
-    document.querySelector(".child-digital-clock").innerText = time;
+    document.querySelector(".child-digital-clock p").innerText = time;
 }
 
 setInterval(showTime , 1000);
