@@ -1,4 +1,4 @@
-    //    analog clock
+    //    Analog clock
 
 const secondsHand = document.getElementById("seconds-hand");
 const minutesHand = document.getElementById("minutes-hand");
@@ -23,7 +23,7 @@ setInterval(getTime , 1000);
        
        
        
-    //    analog clock end 
+    //    Analog clock end 
        
     // digital clock
 
@@ -44,12 +44,16 @@ function showTime() {
 
     hours = (hours < 10 ) ? `0${hours}` : hours;
     minutes = (minutes < 10 ) ? `0${minutes}` : minutes;
-    second = (seconds < 10 ) ? `0${seconds}` : seconds;
+    seconds = (seconds < 10 ) ? `0${seconds}` : seconds;
 
     let time = `${hours}:${minutes}:${seconds} ${amPm}`
-    document.querySelector(".digital-clock").innerText = time;
+    document.querySelector(".child-digital-clock").innerText = time;
 }
 
 setInterval(showTime , 1000);
 
         // digital clock end
+
+        // 1st convert date
+
+        document.querySelector("#1st-convert").innerText = date;

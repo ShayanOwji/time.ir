@@ -1,0 +1,53 @@
+<main>
+   <div class="main-box">
+    <div class="green">
+        <div class="today-date">
+            <p>تاریخ امروز</p>
+        </div>
+
+        <div class="date-convert">
+            <div class="1">
+                <p>خورشیدی</p>
+                <p >1402/02/26</p>
+                <p >1402/02/26</p>
+            </div>
+            <div class="2">
+                <p>میلادی</p>
+                <p>1402/02/26</p>
+                <p>1402/02/26</p>
+            </div>
+            <div class="3">
+                <p>قمری</p>
+                <p>1402/02/26</p>
+                <p>1402/02/26</p>
+            </div>
+            <div class="4">
+                <p>برج فلکی</p>
+                <p>1402/02/26</p>
+            </div>
+        </div>
+        
+        <div class="clock">
+            <div class="main-clock">
+        
+                <div class="analog-clock">
+                    <div id="seconds-hand"></div>
+                    <div id="minutes-hand"></div>
+                    <div id="hours-hand"></div>
+                    <div id="center-point"></div>
+                </div>
+            
+                <div class="digital-clock">
+                    
+                </div>
+        </div>
+    
+   </div>
+
+   
+  </div>
+
+</div>
+
+     
+</main>
