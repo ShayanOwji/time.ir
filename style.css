@@ -88,7 +88,6 @@ main {
 .parent-clock {
     display: flex;
     justify-content: center;
-    
 }
 
 .child-analog-clock {
@@ -109,7 +108,7 @@ main {
     width: 2px;
     height: 119px;
     background-color: rgba(255, 255, 255, 0.674);
-    left: 133px;
+    left: 120px;
     top: 11px;
     opacity: 50%;
     transform-origin: 0% 100%;
@@ -119,7 +118,7 @@ main {
     position: absolute;
     width: 2px;
     height: 100px;
-    left: 130px;
+    left: 125px;
     top: 30px;
     background-color: rgb(64, 5, 181);
     transform-origin: 0% 100%;
@@ -136,12 +135,12 @@ main {
 }
 
 #center-point {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: red;
     position: absolute;
-    left: 50%;
+    left: 46%;
     top: 50%;
 }
 
@@ -216,6 +215,41 @@ main {
 
                         /* link text end  */
 
+.parent-calendar {
+    display: flex;
+    width: 35%;
+    height: 600px;
+    background-color: blue;
+    margin: 20px 20px;
+}
+
+.child-calendar-header {
+    display: flex;
+}
+
+.children-previous-month {
+    display: inline-block;
+    font-weight: bold;
+    direction: ltr;
+}
 
 
 
+.children-previous-month img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+
+.children-next-month {
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+.children-next-month img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}

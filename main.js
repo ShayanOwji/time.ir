@@ -54,6 +54,3 @@ setInterval(showTime , 1000);
 
         // digital clock end
 
-        // 1st convert date
-
-        document.querySelector("#1st-convert").innerText = date;
