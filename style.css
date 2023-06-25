@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -24,7 +26,7 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 3000px;
+    height: 4000px;
     background-color: #E6E6E6;
     margin-top: -50px;
 }
@@ -110,7 +112,7 @@ main {
     width: 2px;
     height: 100px;
     background-color: rgba(255, 255, 255, 0.674);
-    left: 125px;
+    left: 120px;
     top:30px;
     opacity: 50%;
     transform-origin: 0% 100%;
@@ -120,7 +122,7 @@ main {
     position: absolute;
     width: 2px;
     height: 100px;
-    left: 125px;
+    left: 120px;
     top: 30px;
     background-color: rgb(64, 5, 181);
     transform-origin: 0% 100%;
@@ -137,13 +139,13 @@ main {
 }
 
  #center-point {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: red;
     position: absolute;
-    left: 120px;
-    top: 50%;
+    left: 115px;
+    top: 125px;
 }  
 
 .child-digital-clock p {
@@ -353,21 +355,24 @@ main {
 
 .child-converter-box {
     display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    text-align: center;
     margin-top: 50px;
 }
 
 
 #convertType {
-    padding: 10px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
     margin-left: 30px;
     width: 300px;
     border-radius: 5px;
     font-size: 20px;
+    opacity: .7;
 }
 
 #dayType {
+    opacity: .7;
     margin-left: 10px;
     padding: 10px;
     width: 70px;
@@ -376,6 +381,7 @@ main {
 }
 
 #monthType {
+    opacity: .7;
     padding: 10px;
     margin-left: 20px;
     width: 200px;
@@ -384,9 +390,10 @@ main {
 }
 
 #yearType {
+    opacity: .7;
     padding: 10px;
     margin-left: 50px;
-    width: 50px;
+    width: 70px;
     text-align: center;
     border-radius: 5px;
     font-size: 20px;
@@ -401,6 +408,7 @@ main {
     border-radius: 5px;
     padding: 13px 150px;
     font-size: 20px;
+    cursor: pointer;
 }
 
             /* converter box end */
@@ -411,30 +419,243 @@ main {
     align-items: center;
     margin-top: 50px;
     width: 95%;
-    height: 200px;
+    height: 150px;
+    overflow-y: hidden;
     background-color: #F5F5F5;
     border-bottom: 1px solid #43434343;
     border-top: 1px solid #43434343;
 }
 
 .child-date-box-1 {
-    display: flex;
-    flex-wrap: wrap;
     width: 20%;
+    border-left: 1px solid #434343;
+    padding: 22px;
 }
+
+.child-date-box-1 p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.child-date-box-1 img {
+    background-color: #4CD035;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.children-date-box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+                /* date box 1 end  */
 
 .child-date-box-2 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 1px solid #434343;
+    padding: 10px;
     width: 20%;
 }
+
+.child-date-box-2 p {
+    text-align: center;
+    font-size: 20px;
+    font-weight:bold;
+    padding: 5px;
+}
+            /* date box 2 end  */
+
 .child-date-box-3 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 1px solid #434343;
+    padding: 10px;
     width: 20%;
 }
+
+.child-date-box-3 p {
+    text-align: center;
+    font-size: 20px;
+    font-weight:bold;
+    padding: 5px;
+}
+        /* date bpx 3 end  */
+
 .child-date-box-4 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    padding: 38px;
     width: 20%;
+}
+
+.child-date-box-4 p {
+    text-align: center;
+    font-size: 20px;
+    font-weight:bold;
+    padding: 5px;
+}
+
+        /* date box 4 end  */
+
+
+.parent-date-information {
+     width:100%;
+     height:150px;
+     width:85%;
+     margin-top:50px;
+     font-size:20px;
+}
+
+#first-span {
+    margin-left: 40px;
+     font-weight: bolder;
+}
+
+        
+
+.parent-date-information button {
+    float: left;
+    padding: 15px 100px;
+    background-color: #4CD035;
+    color: #ffffff;
+    border: 1px solid #4CD035;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}    
+
+
+.parent-date-information button:hover {
+    background-color: #ffffff;
+    color: #4CD035;  
+    transition :1s ease-out;
+}
+
+                    /* date information end  */
+
+.parent-header-book-section {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 25px; 
+    width: 100%;
+}                   
+
+.child-book-header {
+    display:inline-flex;
+    flex-wrap: wrap;
+}
+
+.parent-header-book-section p {
+    display: inline-flex;
+    flex-wrap: wrap;
+    color: #4CD035;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid #4343436b;
+    padding-bottom: 30px;
+}
+
+        /* book header end  */
+
+.parent-book-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+        /* book image end  */
+
+.parent-book-text {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    /* text-align: center; */
+    
+    margin-top: 50px;
+}
+
+.child-book-text {
+    width: 80%;
+}
+
+        /* book text end  */
+
+.parent-app-download {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+.child-app-space-1 {
+    display: flex;
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.child-app-text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    background-color: #CCCCCC;
+    
+}
+
+.child-app-text-1 p {
+    font-size: 2rem;
+}
+
+
+.child-app-text-2 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background-color:#E6E6E6;
+}
+
+.child-app-text-2 p {
+    margin-right:50px;
+    font-size: 20px;
+}
+
+.child-download-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+
+
+.child-app-button-top button {
+    border: 1px solid #63D035;
+    border-radius: 5px;
+    background-color: #63D035;
+    padding: 20px 100px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.child-app-button-bottom button {
+    border: 1px solid #63D035;
+    border-radius: 5px;
+    background-color: #63D035;
+    padding: 20px 115px ;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
 }

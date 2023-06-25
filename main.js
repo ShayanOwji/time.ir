@@ -23,9 +23,9 @@ setInterval(getTime , 1000);
        
        
        
-    //    Analog clock end 
+     //    Analog clock end 
        
-    // digital clock
+    //     start digital clock
 
 function showTime() {
     let date = new Date();
