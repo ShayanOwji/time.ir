@@ -46,7 +46,7 @@
         </div>
 
         <div class="parent-link-text">
-            <div class="child-link-text">
+            <div class="child-link-name">
                 <a href="#"><p>رولو می</p></a>
             </div>
             <div class="child-link-icon">
@@ -63,21 +63,144 @@
         <div class="parent-calendar">
             <div class="child-calendar-header">
                 <div class="children-previous-month">
-                    <span>ماه قبل</span>
-                    <img src="./image/red-arrow-right.png" alt="right-arrow">
+                   <a href="#"> <span>ماه قبل</span></a>
+                   <a href="#"> <img src="./image/red-arrow-right.png" alt="right-arrow"></a>
                 </div>
-                <div class="children-main-date"></div>
+
+                <div class="children-main-date">
+                    <a href="#"><img src="./image/down arrow.png" alt="down-arrow-right-side"></a>
+                    <a href="#"><span>خرداد 1402</span></a>
+                    <a href="#"><img src="./image/down arrow.png" alt="down-arrow-left-side"></a>
+                </div>
+                
+
                 <div class="children-next-month">
-                    <span>ماه بعد</span>
-                    <img src="./image/red-arrow-left.png" alt="left-arrow">
+                    <a href="#"><span>ماه بعد</span></a>
+                    <a href="#"><img src="./image/red-arrow-left.png" alt="left-arrow"></a>
                 </div>
             </div>
-            <div class="child-calendar-days"></div>
+            <div class="child-calendar-days">
+                <div>ش</div>
+                <div>ی</div>
+                <div>د</div>
+                <div>س</div>
+                <div>چ</div>
+                <div>پ</div>
+                <div>ج</div>
+            </div>
             <div class="child-calendar-date"></div>
             <div class="child-calendar-button"></div>
         </div>
         <div class="parent-events"></div>
+
+        <br>
+        <br>
+        <br>
+        <br>                                              
+        <hr>   
+
+                    <!-- calendar end  -->
+
+         <div class="parent-converter-box">
+            <div class="child-convert-header">
+                <div class="header-text">
+                    <p>تبدیل تاریخ</p>
+                </div>
+            </div>
+            <div class="child-converter-box">
+                <div class="convert-type">
+                    <label for="convertType">نوع تبدیل</label>
+                    <select name="convertType" id="convertType">
+                        <option value="">نوع تبدیل را انتخاب کنید</option>
+                        <option value="خورشیدی">خورشیدی(جلالی) به میلادی و قمری</option>
+                        <option value="میلادی">میلادی به خورشیدی(جلالی) و قمری</option>
+                        <option value="قمری">قمری به خورشیدی(جلالی) و میلادی</option>
+                    </select>
+                </div>
+                <div class="day">
+                    <label for="dayType">روز</label>
+                    <select name="dayType" id="dayType">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                </div>
+                <div class="month">
+                    <label for="monthType">ماه</label>
+                    <select name="monthType" id="monthType">
+                        <option value="1">فروردین - ماه اول</option>
+                        <option value="2">اردیبهشت - ماه دوم</option>
+                        <option value="3">خرداد - ماه سوم</option>
+                        <option value="4">تیر - ماه چهارم</option>
+                        <option value="5">مرداد - ماه پنجم</option>
+                        <option value="6">شهریور - ماه ششم</option>
+                        <option value="7">مهر - ماه هفتم</option>
+                        <option value="8">آبان - ماه هشتم</option>
+                        <option value="9">آذر - ماه نهم</option>
+                        <option value="10">دی - ماه دهم</option>
+                        <option value="11">بهمن - ماه یازدهم</option>
+                        <option value="12">اسفند - ماه دوازدهم</option>
+                    </select>
+                </div>
+                <div class="year">
+                    <label for="yearType" style="font-size: 25px;">سال</label>
+                    <input id="yearType" type="text" placeholder="1402">
+                </div>
+                <div class="convert-button">
+                    <button>تبدیل</button>
+                </div>
+            </div>
+            
+           <div class="parent-date-box">
+                <div class="child-date-box-1">
+                    <div class="children-date-box-1">
+                        <img src="" alt="">
+                        <span>برج فلکی:</span>
+                        <span>سرطان</span>
+                    </div>
+                </div>
+                <div class="child-date-box-2"></div>
+                <div class="child-date-box-3"></div>
+                <div class="child-date-box-4"></div>
+           </div>
+
+           <div class="child-date-information"></div>
+    </div>
+      
 </main>
+
+
+   
+
+
 
 
     <script src="./main.js"></script>
