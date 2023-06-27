@@ -315,11 +315,20 @@ main {
 }
 
             
+                            /* calendar days name end */
 
-                            /* calendar end */
 
-
-                            
+.child-calendar-date {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+      
+.child-calendar-date-space {
+    background-color: blue;
+    width: 90%;
+    height: 60%;
+}
                             
 .child-convert-header {
     display: inline-flex;     
@@ -485,7 +494,7 @@ main {
     font-weight:bold;
     padding: 5px;
 }
-        /* date bpx 3 end  */
+        /* date box 3 end  */
 
 .child-date-box-4 {
     display: flex;
@@ -514,7 +523,7 @@ main {
 
 #first-span {
     margin-left: 40px;
-     font-weight: bolder;
+    font-weight: bolder;
 }
 
         
@@ -637,28 +646,85 @@ main {
 
 
 
-.child-app-button-top button {
+.child-app-button-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     color: #ffffff;
     border: 1px solid #63D035;
     border-radius: 5px;
     background-color: #63D035;
-    padding: 20px 100px;
-    margin-bottom: 40px;
+    padding: 8px 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    padding-left: 20px;
+    
 }
 
+.child-app-button-top a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 40px;
+}
 
-.child-app-button-bottom button {
+.child-link-button-top {
+    display: flex;
+    
+}
+
+.child-logo-bazar {
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px solid #ffffff;
+}
+
+.child-logo-bazar img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    
+}
+
+/* .child-app-button-top img {
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+} */
+
+
+.child-app-button-bottom {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
     color: #ffffff;
     border: 1px solid #63D035;
     border-radius: 5px;
     background-color: #63D035;
-    padding: 20px 123px ;
+    padding: 5px 85px ;
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    padding-left: 10px;
+}
+
+.child-app-button-bottom a {
+    padding-left: 60px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.child-download-android {
+    display: flex;
+    padding: 5px;
+    border-right: 1px solid #ffffff;
+}
+
+.child-download-android img {
+    width: 60px;
+    height: 60px;
 }
 
 
@@ -718,8 +784,10 @@ main {
      margin: 20px;
 }
 
-.child-print-button-a3 button {  
-    padding: 20px 123px;
+.child-print-button-a3 {  
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
     color: #ffffff;
     background-color: #63D035;
     border: 1px solid #63D035;
@@ -727,7 +795,24 @@ main {
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    padding-left: 10px;
 } 
+
+.child-download-a3 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 60px;
+}
+
+.child-download-logo-a3 {
+    display: flex;
+    border-right: 1px solid #ffffff;
+}
+
+.child-download-logo-a3 img {
+    width: 90px;
+    height: 60px;
+}
 
         /* print calendar A3 end  */
 
@@ -785,8 +870,10 @@ main {
     margin: 20px;
 }
         
-.child-print-button-a4 button {  
-    padding: 20px 123px;
+.child-print-button-a4 {  
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
     color: #ffffff;
     background-color: #63D035;
     border: 1px solid #63D035;
@@ -794,13 +881,48 @@ main {
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    padding-left: 10px;
 }
 
+.child-print-button-a4 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 60px;
+}
+
+.child-download-logo-a4 {
+    display: flex;
+    border-right:1px solid #ffffff ;
+}
+
+.child-download-logo-a4 img {
+    width: 90px;
+    height: 60px;
+}
+
+
+/* print calendar A4 end  */
+
 .parent-footer {
-    background-color: black;
+    display: flex;  
     width: 100%;
     height: 200px;
 }
 
-                        /* print calendar A4 end  */
 
+.child-jump-button-space {
+    z-index: -1;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.child-jump-button-space img {
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #4CD035;
+    border-radius: 50%;
+}
