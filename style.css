@@ -226,6 +226,7 @@ main {
 }
 
 .child-calendar {
+    position: relative;
     width: 40%;
     height: 650px;
     background-color: #ffffff;
@@ -300,6 +301,62 @@ main {
     height: 30px;
     margin-top: -4px;
 }
+        /* modal section  */
+
+.modal {
+    display: none;
+}
+
+
+.modal-content {
+    width: 100%;
+    margin: 30px;
+    padding: 50px 1px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d9d8d8;
+    position: absolute;
+    top: 60px;
+    right: -30px;
+    border-radius: 5px;
+}
+
+.close-btn {
+    margin-right: 20px;
+    margin-top: -30px;
+    font-size: 1.5rem;
+    color: red;
+    border: 2px solid black;
+    border-radius: 40%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.modal-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.first-modal {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.second-modal {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.third-modal {
+    font-size: 20px;
+    cursor: pointer;
+}
+
 
         /* header calendar end  */
 
