@@ -71,3 +71,28 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+        // modal section end 
+
+const convert = document.getElementById("convertType");
+const day = document.getElementById("dayType");
+const month = document.getElementById("monthType");
+const year = document.getElementById("yearType"); 
+
+document.addEventListener("click" , convertType);
+
+function convertType() {
+    
+}
+
+function dayType() {
+
+}
+
+function monthType() {
+
+}
+
+function yearType() {
+
+}

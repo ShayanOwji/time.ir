@@ -24,22 +24,22 @@
 
 main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     height: 100%;
     background-color: #E6E6E6;
     margin-top: -50px;
-    z-index: 1;
 }
 
 .main-box-1 {
-    display: inline-block;
+    display: block;
     width: 70%;
     height: 100%;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.276) ;
-    z-index: 1;
+    z-index: 2;
 } 
 
 .parent-green {
@@ -1111,26 +1111,81 @@ main {
     height: 60px;
 }
 
+    /* print calendar A4 end  */
 
-/* print calendar A4 end  */
-
-/* .parent-footer {
-    display: flex;  
-    height: 200px;
-    z-index: 20;
-    background-color: #1F1F1F;
-} */
-
-
-.parent-footer a {
-    /* justify-content: center;
+.parent-footer {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 80px;
-    background-color: #4CD035;
-    border-radius: 50%;
-    margin-top: -50px; */
+    height: 100%x;
+    background-color: #434343;
 }
 
-/* .parent-footer img {
+.jump-up {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -30px;
+}
+
+
+.jump-up img {
+    background-color: #4CD035;
+    border: 1px solid #4CD035;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
     
-} */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer-links ul {
+    display: flex;
+}
+
+.footer-links a {
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.footer-links a:hover {
+    color: #4CD035;
+}
+
+        /* footer links end  */
+
+.footer-introduce {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.footer-introduce p{
+    color: #ffffff;
+}
+
+.footer-introduce-site {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-introduce-site a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+    /* footer end  */
